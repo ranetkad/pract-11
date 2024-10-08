@@ -1,0 +1,8 @@
+---
+# handlers file for nginx_proxy
+
+- name: Перезапуск Nginx
+  service:
+    name: nginx
+    state: restarted
+
